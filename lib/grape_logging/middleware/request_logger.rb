@@ -59,7 +59,7 @@ module GrapeLogging
           method: request.request_method,
           path: request.path,
           params: request.params,
-          remote_ip: request.remote_ip
+          remote_ip: request.ip
         }
       end
 
